@@ -1,0 +1,98 @@
+a
+{
+color: inherit;
+}
+#outer
+{
+margin-left: 500px;
+    margin-top: 200px;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    border: 0px solid black;
+    transition: all 0.5s;
+    
+}
+.aa
+{
+    position: absolute;
+    background: #1de9b6;
+    height: 100px;
+    width: 100%;
+    margin-top: 200px;
+       border-radius: 20px;
+}
+.top
+{
+position: absolute;
+    transition: all 0.5s ease-in-out;
+    border-radius: 20px;
+    
+}
+
+#outer:hover > .top
+{
+   margin-top: -70px;
+
+}
+
+#n1
+{
+    position: absolute;
+    margin-top: 235px;
+    margin-left: 10px;
+    color: black;
+    opacity:1;
+    transition: all 0.3s ease-in-out;
+}
+#n2
+{
+    position: absolute;
+    margin-left: 10px;
+    margin-top:260px;
+    color: black;
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+
+}
+#outer:hover  #n1
+{
+  
+   margin-left: 20px;
+}
+
+#outer:hover  #n2
+{
+   margin-left: 20px;
+   
+}
+
+#l1
+{position: absolute;
+    margin-top: 150px;
+    margin-left: 190px;
+    transition: all 0.5s ease-in-out;
+    opacity: 1;  
+}
+#l2
+{
+     margin-top:150px;
+    position: absolute;
+margin-left: 245px;
+    transition: all 0.5s ease-in-out;
+opacity: 1;
+    transition-delay: 0.1s;
+}
+
+#outer:hover #l1
+{
+margin-top:240px;
+}
+
+#outer:hover #l2
+{
+margin-top:240px;
+}
+
+
