@@ -1,7 +1,5 @@
-*
-{
-    margin: 20px;
-}
+
+/* For desktop: */
 
 img
     {
@@ -34,19 +32,19 @@ html
     transition: all 0.5s ease-in-out;
     opacity: 0.7;
     border-radius: 15px;
-    margin-top: -20px;
+    margin-top: 0px;
 }
 .thumbnail:hover > .aa
 {
     height: 280px;
-    margin-top: -300px;
+    margin-top: -280px;
     background: black;
     opacity: 0.7;
 }
 .n1
 {
     position: absolute;
-    margin-top: -100px;
+    margin-top: -80px;
     margin-left: 30px;
     color: #3949ab;
     opacity:0;
@@ -58,7 +56,7 @@ html
 {
     position: absolute;
     margin-left: 30px;
-    margin-top:-70px;
+    margin-top:-50px;
     color: #3949ab;
     transition: all 0.5s ease-in-out;
     font-size: 30px;
@@ -68,7 +66,7 @@ html
 .thumbnail:hover  .n1
 {
   color: white;
-  margin-top: -230px;
+  margin-top: -210px;
   letter-spacing: 1.5px;
   opacity: 1;
 }
@@ -76,24 +74,24 @@ html
 .thumbnail:hover  .n2
 {
     color: white;
-    margin-top: -200px;
+    margin-top: -180px;
     letter-spacing: 1.5px;
     opacity: 1;
 }
 .l1
 {
     position: absolute;
-    margin-top: -180px;
-    margin-left: 190px;
+    margin-top: -110px;
+    margin-left: 180px;
     transition: all 0.5s ease-in-out;
     color: white;
     opacity: 0;
 }
 .l2
 {
-    margin-top:-180px;
+    margin-top:-110px;
     position: absolute;
-    margin-left: 230px;
+    margin-left: 220px;
     transition: all 0.5s ease-in-out;
     transition-delay: 0.1s;
     color: white;
@@ -102,12 +100,12 @@ html
 
 .thumbnail:hover .l1
 {
-    margin-top:-80px;
+    margin-top:-40px;
     opacity: 1;
 }
 
 .thumbnail:hover .l2
 {
-    margin-top:-80px;
+    margin-top:-40px;
     opacity: 1;
 }
